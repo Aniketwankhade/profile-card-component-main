@@ -1,0 +1,82 @@
+body {
+    font-family: sans-serif;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.container {
+    width: 300px;
+    height: 330px;
+    border-radius: 12px;
+    margin: 0 auto;
+    margin-top: 200px;
+    background-color: white;
+}
+
+.upper {
+    background: linear-gradient(to top, rgb(114, 231, 231), rgb(8, 233, 226));
+    height: 100px;
+    border-radius: 12px 12px 0 0;
+    position: relative;
+}
+
+.upper img {
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+}
+
+.lower {
+    margin-top: 60px;
+    text-align: center;
+    padding: 10px;
+}
+
+.lower label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.lower span {
+    color: grey;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.lower p {
+    color: grey;
+    font-size: 16px;
+}
+
+.footer {
+   
+    border-top: 1px solid rgb(212, 211, 211);
+    text-align: center;
+    display: flex;
+    padding: 12px;
+    
+}
+.footer div {
+    padding: 9px;
+}
+.footer div h4 {
+    margin: 0px 20px 0px 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.footer span {
+    color: grey;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 600px){
+  .container{
+    display: block;
+    justify-content: center;
+    margin-left: 10%
+  }    
+}
